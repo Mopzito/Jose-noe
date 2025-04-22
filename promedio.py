@@ -31,15 +31,15 @@
 # else:
 #     print("es mayor de edad porque tiene", edad)
 
-# ingrese 3 numeros y muestre el mayor de ellos
+# # ingrese 3 numeros y muestre el mayor de ellos
 
-n1=int(input("ingrese un numero"))
-n2=int(input("ingrese un numero"))
-n3=int(input("ingrese un numero"))
+# n1=int(input("ingrese un numero"))
+# n2=int(input("ingrese un numero"))
+# n3=int(input("ingrese un numero"))
 
-if n1>n2 and n1>n3:
-    print("el numero ", n1, "es el mayor")
-elif n2>n3:
-    print("el numero ", n2, "es el mayor")
-else:
-    print("el numero ", n3, "es el mayor")
+# if n1>n2 and n1>n3:
+#     print("el numero ", n1, "es el mayor")
+# elif n2>n3:
+#     print("el numero ", n2, "es el mayor")
+# else:
+#     print("el numero ", n3, "es el mayor")
