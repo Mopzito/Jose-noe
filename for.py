@@ -108,35 +108,30 @@
 
 # de pseint a python 
 
-# Definir cant, total, op Como Entero
-# 	Escribir "Cuantos productos llevará?"
-# 	Leer cant
-	
-# 	Para i<-1 Hasta cant Con Paso 1 Hacer
-# 		Escribir "Que producto llevará?"
-# 		Escribir "1.- Diazepam $9000"
-# 		Escribir "2.- Metametozona $18500"
-# 		Escribir "3.- Oblea China $1000"
-# 		Leer op
-		
-# 		Si op==1 Entonces
-# 			Escribir "Usted lleva dIAZEPAM"
-# 			total=total+9000
-# 		SiNo
-# 			Si op==2 Entonces
-# 				Escribir "Usted lleva Metametozona"
-# 				total=total+18500
-# 			SiNo
-# 				Si op==3 Entonces
-# 					Escribir "Usted lleva Oblea China"
-# 					total=total+1000
-# 				SiNo
-# 					Escribir "Error, selecione una opcion valida (1,2,3)"
-# 				Fin Si
-# 			Fin Si
-# 		Fin Si
-		
-# 	Fin Para
-	
-# 	Escribir "EL total neto es ", total
-# 	Escribir "EL total mas IVA es ", total*1.19
+# cant=int(input("Cuantos productos llevará?"))
+# total=0
+# for i in range(cant):
+
+
+
+# frase=input("Ingrese una frase ")
+# cantcar=0
+# v=0
+# cons=0
+# e=0
+# for i in frase:
+#     print(i)
+#     cantcar+=1
+#     if i.lower() in "aeiouáéíóú":
+#         v+=1
+#         # v=v+1
+#     elif i==1:
+#         e+=1
+#         # e=e+1
+#     else:
+#         cons+=1
+#         # cons=cons+1
+# print(f"el total de caracteres es {cantcar}")
+# print(f"el total de vocales es {v}")
+# print(f"el total de consonantes es {cons}")
+# print(f"el total de espacios es {e}")
