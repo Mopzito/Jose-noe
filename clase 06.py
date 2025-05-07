@@ -10,21 +10,52 @@
 # Chilena: +300.000, extranjero: +0
 
 
-# creditos=0
-# op=0
+creditos=0
 
-# print(" Elija su monto")
-# print(" 1.- 500.000 - 1.000.000"
-#      " 2.- 1.000.001 - 1.500.000 "
-#      " 3.- 1.500.001 - más" )
-# op=int(input())
-# if op==1:
-#     creditos+300000
-# elif op==2:
-#     creditos+650000
-# elif op==3:
-#     creditos+1000000
 
+print(" Elija su monto")
+print(" 1.- 500.000 - 1.000.000"
+" 2.- 1.000.001 - 1.500.000 " " 3.- 1.500.001 - más" )
+ 
+op=int(input())
+if op==1:
+    creditos+=300000
+elif op==2:
+    creditos+=650000
+elif op==3:
+    creditos+=1000000
+else:
+    print("opcion no valida")
+
+print(f"su monto actual es {creditos}")
+
+print("ingrese su nivel de educación")
+print(" 1.- Basica"
+" 2.- Media " " 3.- Superior" )
+
+op=int(input())
+if op==1:
+    creditos*=1
+elif op==2:
+    creditos*=1.3
+elif op==3:
+    creditos*=1.5
+else:
+    print("seleccione opcion valida")
+
+print(f"Su monto de creditos actual es {creditos}")
+
+print("Ingrese su nacionalidad")
+
+op=int(input())
+if op==1:
+    creditos+=300000
+elif op==2:
+    creditos+=0
+else:
+    print("seleccione opcion valida")
+
+print(f"su monto de creditos es {creditos}")
 # print(f"su monto es ", creditos)
 
 # int(input())
