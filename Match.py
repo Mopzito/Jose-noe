@@ -55,7 +55,7 @@
 
 
 
-def personajes(Jugador)
+def personajes(Jugador):
     while True:
         print("Super Smash Bros Ultimate")
         op=int(input(f'''{Jugador}Seleccione Personaje
